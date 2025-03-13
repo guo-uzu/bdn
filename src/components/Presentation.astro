@@ -1,0 +1,15 @@
+---
+const texts = [
+  "La alternativa que pone a las personas al centro y sus causas al frente.",
+  "Desde la Cámara de Diputados sentamos las bases para la construcción de un México Nuevo.",
+];
+---
+
+<section class="px-4 bg-zinc-100">
+  <h1 class="font-montserrat text-center font-bold text-orange-400 text-lg pt-8 pb-2">Somos la Bancada Naranja</h1>
+  <div class="flex flex-col gap-y-3">
+    {
+      texts.map((text) => <p class="font-montserrat font-light text-center text-sm">{text}</p>)
+    }
+  </div>
+</section>
