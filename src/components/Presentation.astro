@@ -5,11 +5,11 @@ const texts = [
 ];
 ---
 
-<section class="px-4 py-10 bg-gray-bg">
-  <h1 class="font-montserrat text-center font-bold text-orange-400 text-lg pb-2">Somos la Bancada Naranja</h1>
-  <div class="flex flex-col gap-y-3">
+<section class="px-4 py-24 max-[960px]:py-10 bg-gray-bg">
+  <h1 class="font-montserrat text-center font-bold text-orange-400 text-4xl max-[640px]:text-2xl pb-6">Somos la Bancada Naranja</h1>
+  <div class="flex flex-col gap-y-2">
     {
-      texts.map((text) => <p class="font-montserrat font-light text-center text-sm">{text}</p>)
+      texts.map((text) => <p class="font-montserrat font-light text-center text-xl max-[960px]:text-sm">{text}</p>)
     }
   </div>
 </section>

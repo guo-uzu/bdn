@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import { Modal } from "react-responsive-modal"
 import "react-responsive-modal/styles.css"
 
-export default function CartModal({ src, title, text }) {
+export default function CartModal({ src, title, text, modalText }) {
     const [open, setOpen] = useState(false);
     const onOpenModal = () => setOpen(true);
     const onCloseModal = () => setOpen(false);
+
     return (
         <div className='flex flex-col items-center p-4 gap-2 bg-white rounded-2xl'>
             <img className='max-w-[300px] w-full h-auto rounded-2xl' src={src} alt="" />
@@ -36,11 +37,18 @@ export default function CartModal({ src, title, text }) {
                         />
                     </svg>
                 </button>
-                <Modal open={open} onClose={onCloseModal} center>
-                    <h2>Simple centered modal</h2>
-                    <p>
-                        {title}
-                    </p>
+                <Modal 
+                    
+                    open={open}
+                    onClose={onCloseModal}
+                    center
+                >
+                    <h2 className='font-bold text-orange-bnd text-xl font-montserrat pb-4'>{title}</h2>
+                    <div className='flex flex-col text-sm gap-2'>
+                    {
+                        modalText.map(text => <p className='font-montserrat text-md font-light text-gray-texts'>{text}</p>)
+                    }
+                    </div>
                 </Modal>
             </div>
         </div>

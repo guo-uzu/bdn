@@ -346,10 +346,10 @@ export default function SelectionBancada() {
 
 
     return (
-        <section id='BancadaNaranja' className='py-8 px-2'>
+        <section id='BancadaNaranja' className='py-16 px-2'>
             <div className='max-w-[1000px] mx-auto'>
                 <div className=''>
-                    <h2 className='uppercase text-center font-montserrat font-black text-orange-400 text-2xl px-2'>la bancada naranja</h2>
+                    <h2 className='uppercase text-center font-montserrat font-black text-orange-400 text-4xl max-[960px]:text-2xl px-2'>la bancada naranja</h2>
                     <select className='bg-gray-bg drop-shadow-md my-6 p-2 selection:border-0 focus:border-0' name="estados" id="estados" onChange={handleSelect} value={select}>
                         <option value="all">-</option>
                         <option value="Aguascalientes">Aguascalientes</option>
