@@ -16,6 +16,8 @@
     "astro": "^5.4.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-modal": "^6.4.2",
     "tailwindcss": "^4.0.13"
   }
 }

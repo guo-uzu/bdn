@@ -1,8 +1,15 @@
 ---
 import Carousel from './Carousel'
 import Presentation from './Presentation.astro'
+import SelectionBancada from './SelectionBancada'
+import Spot from "./Spot.astro"
+import Causas from "./Causas.tsx"
+import Footer from './Footer.astro'
 ---
 <main>
-  <Carousel />
+  <Carousel client:only />
   <Presentation />
+  <SelectionBancada client:only />
+  <Causas client:only />
+  <Footer />
 </main>

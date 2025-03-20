@@ -3,4 +3,7 @@
 
 @theme {
     --font-montserrat: "Montserrat", sans-serif;
+    --color-gray-bg: #f5f6f8;
+    --color-orange-bnd: #ff7c00;
+    --color-gray-texts: #a4a4a5;
 }
