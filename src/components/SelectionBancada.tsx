@@ -346,7 +346,7 @@ export default function SelectionBancada() {
 
 
     return (
-        <section id='BancadaNaranja' className='py-16 px-2'>
+        <section id='BancadaNaranja' className='pt-16 px-2'>
             <div className='max-w-[1000px] mx-auto'>
                 <div className=''>
                     <h2 className='uppercase text-center font-montserrat font-black text-orange-400 text-4xl max-[960px]:text-2xl px-2'>la bancada naranja</h2>
