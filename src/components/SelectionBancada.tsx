@@ -107,7 +107,7 @@ export default function SelectionBancada() {
             imageSrc: DiputadoPabloVazquez,
             socialMedia: {
                 instagram: "https://www.instagram.com/pablo_vah_/",
-                x: "http://x.com/Pablo_VAh"
+                x: "https://x.com/Pablo_VAh"
             }
         },
         {
@@ -140,7 +140,7 @@ export default function SelectionBancada() {
             socialMedia: {
                 facebook: "https://www.facebook.com/DipLauraDDHH",
                 instagram: "https://www.instagram.com/diplauraddhh/",
-                x: "https://x.com/LauraDDHH"
+                x: "https://x.com/DipLauraDDHH"
             }
         },
         {
@@ -243,7 +243,7 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Macky Gónzalez",
+            name: "Macky González",
             position: "Diputada Ciudadana",
             state: "CiudadDeMexico",
             imageSrc: DiputadoMackyGonzalez,
@@ -317,7 +317,7 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Francisco Farías",
+            name: "Francisco Farias",
             position: "Diputado Ciudadano",
             state: "Campeche",
             imageSrc: DiputadoFranciscoFarias,

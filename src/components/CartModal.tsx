@@ -8,10 +8,10 @@ export default function CartModal({ src, title, text, modalText }) {
     const onCloseModal = () => setOpen(false);
 
     return (
-        <div className='flex flex-col items-center p-4 gap-2 bg-white rounded-2xl'>
+        <div className='flex font-montserrat flex-col items-center p-4 gap-2 bg-white rounded-2xl'>
             <img className='max-w-[300px] w-full h-auto rounded-2xl' src={src} alt="" />
             <div className='flex flex-col flex-1 gap-2'>
-                <h4 className='font-montserrat font-black text-orange-bnd text-md text-center'>{title}</h4>
+                <h4 className='font-black text-orange-bnd text-md text-center'>{title}</h4>
                 <p className='flex-1 text-sm text-gray-texts text-center'>{text}</p>
             </div>
             <div className='flex w-full justify-end'>

@@ -11,7 +11,7 @@ export default function Causas() {
   const causas = [
     {
       title: "40 horas, ¡Ahora!",
-      text: "La duración de la jornada laboral no ha cambiado en más de 100 años.",
+      text: "¿Sabias que la duración de la jornada laboral no ha cambiado en más de 100 años?",
       src: Causa40Horas.src,
       modalText: [
         "¿Sabias que la duración de la jornada laboral no ha cambiado en más de 100 años?",
@@ -21,7 +21,7 @@ export default function Causas() {
     },
     {
       title: "Todo contra el cáncer infantil",
-      text: "El cáncer infantil es la primera causa de muerte por enfermedad en niños de 5 a 14 años.",
+      text: "Así como en Jalisco y Nuevo León, queremos que todas las niñas y niños de México tengan tratamiento gratuito contra el cáncer.",
       src: CausaCancer.src,
       modalText: [
         "Así como en Jalisco y Nuevo León, queremos que todas las niñas y niños de México tengan tratamiento gratuito contra el cáncer.",
@@ -30,16 +30,16 @@ export default function Causas() {
     },
     {
       title: "Derecho al Cuidado",
-      text: "En México, en 7 de cada 10 hogares hay al menos una persona que requiere cuidados.",
+      text: "En la Bancada Naranja vamos por el derecho al cuidado en todo México, con estancias infantiles, escuelas de tiempo completo, casas de día, servicios médicos, capacitaciones, apoyos económicos y más.",
       src: CausaCuidado.src,
       modalText: [
         "En la Bancada Naranja vamos por el derecho al cuidado en todo México, con estancias infantiles, escuelas de tiempo completo, casas de día, servicios médicos, capacitaciones, apoyos económicos y más.",
-        ""
+        "Porque los cuidados son un derecho, pero también son trabajo y deben ser valorados."
       ]
     },
     {
       title: "Que el buró no te quite el sueño",
-      text: "¿Estar en el buró de crédito por deber 200 pesos del teléfono? ¿Te parece justo?",
+      text: "El buró de crédito es injusto y abusivo. ",
       src: CausaBuro.src,
       modalText: [
         "El buró de crédito es injusto y abusivo.",
