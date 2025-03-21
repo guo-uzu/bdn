@@ -368,30 +368,30 @@ export default function SelectionBancada() {
                         <option value="Yucatan">Yucatán</option>
                     </select>
                 </div>
-                <div className='grid justify-center gap-2 font-montserrat grid-cols-[repeat(auto-fit,minmax(200px,240px))] mx-auto max-[425px]:grid-cols-[repeat(auto-fit,minmax(140px,1fr))]'>
+                <div className='grid justify-center gap-2 font-montserrat grid-cols-[repeat(auto-fit,minmax(200px,1fr))] mx-auto max-[425px]:grid-cols-2'>
                     {
                         diputadosToDisplay.map((diputado, index) => (
                             <div key={index} className='relative flex drop-shadow-md flex-col rounded-xl w-full bg-white '>
                                 <img className='rounded-t-xl' src={diputado.imageSrc.src} alt="" />
                                 <div className='flex flex-col p-2 mt-3'>
                                     <h3 className='text-black font-bold text-md max-[375px]:text-center'>{diputado.name}</h3>
-                                    <div className='flex max-[375px]:flex-col'>
-                                        <p className='text-gray-texts font-light text-xs max-[375px]:text-center'>{diputado.position}</p>
+                                    <div className='flex max-[425px]:flex-col'>
+                                        <p className='text-gray-texts font-light text-xs max-[425px]:text-center'>{diputado.position}</p>
                                         <div className='flex justify-center'>
                                             {
                                                 diputado.socialMedia.facebook && (
-                                                    <a target='_blank' href={diputado.socialMedia.facebook}><img className='w-10 min-w-[22px] max-[375px]:max-w-[23px]' src={FacebookLogo.src} alt="" /></a>
+                                                    <a target='_blank' href={diputado.socialMedia.facebook}><img className='w-10 min-w-[22px] max-[425px]:max-w-[23px]' src={FacebookLogo.src} alt="" /></a>
                                                 )
                                             }
                                             {
                                                 diputado.socialMedia.x && (
-                                                    <a target='_blank' href={diputado.socialMedia.x}><img className='w-10 min-w-[22px] max-[375px]:max-w-[23px]' src={XLogo.src} alt="" /></a>
+                                                    <a target='_blank' href={diputado.socialMedia.x}><img className='w-10 min-w-[22px] max-[425px]:max-w-[23px]' src={XLogo.src} alt="" /></a>
 
                                                 )
                                             }
                                             {
                                                 diputado.socialMedia.instagram && (
-                                                    <a target='_blank' href={diputado.socialMedia.instagram}><img className='w-10 min-w-[22px] max-[375px]:max-w-[23px]' src={InstagramLogo.src} alt="" /></a>
+                                                    <a target='_blank' href={diputado.socialMedia.instagram}><img className='w-10 min-w-[22px] max-[425px]:max-w-[23px]' src={InstagramLogo.src} alt="" /></a>
 
                                                 )
                                             }
