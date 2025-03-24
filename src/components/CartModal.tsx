@@ -12,7 +12,7 @@ export default function CartModal({ src, title, text, modalText }: { src: string
             <img className='max-w-[300px] w-full h-auto rounded-2xl' src={src} alt="" />
             <div className='flex flex-col flex-1 gap-2'>
                 <h4 className='font-black text-orange-bnd text-md text-center'>{title}</h4>
-                <p className='flex-1 text-sm text-gray-texts text-center'>{text}</p>
+                <p className='flex-1 text-sm text-gray-texts text-center line-clamp-4'>{text}</p>
             </div>
             <div className='flex w-full justify-end'>
                 <button onClick={onOpenModal} className='cursor-pointer flex gap-2 items-center text-gray-texts'>
