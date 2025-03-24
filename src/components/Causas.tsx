@@ -11,12 +11,12 @@ export default function Causas() {
   const causas = [
     {
       title: "40 horas, ¡Ahora!",
-      text: "¿Sabias que la duración de la jornada laboral no ha cambiado en más de 100 años?",
+      text: "¿Sabías que la duración de la jornada laboral no ha cambiado en más de 100 años?",
       src: Causa40Horas.src,
       modalText: [
-        "¿Sabias que la duración de la jornada laboral no ha cambiado en más de 100 años?",
+        "¿Sabías que la duración de la jornada laboral no ha cambiado en más de 100 años?",
         "Vamos por la reducción de la jornada a 40 horas, para que tengas más tiempo para estar con los tuyos, descansar y recargar pilas.",
-        "40 horas ¡Ahora!"
+        "40 horas, ¡Ahora!"
       ]
     },
     {
@@ -48,15 +48,15 @@ export default function Causas() {
     },
     {
       title: "Ley Silla",
-      text: "El 45% de las personas en México trabaja de pie y sin descanso.",
+      text: "El 45 % de las personas en México trabaja de pie y sin descanso.",
       src: CausaSilla.src,
       modalText: [
-        "El 45% de las personas en México trabaja de pie y sin descanso.",
+        "El 45 % de las personas en México trabaja de pie y sin descanso.",
         "Por eso, en la Bancada Naranja logramos que a partir del 17 de junio de 2025 sea obligatorio proveer sillas con respaldo en todos los centros de trabajo."
       ]
     },
     {
-      title: "Mas vacaciones",
+      title: "Más vacaciones",
       text: "¡Haz tus maletas!",
       src: CausaVacaciones.src,
       modalText: [
@@ -68,7 +68,7 @@ export default function Causas() {
 
   return (
     <section id='Causas' className='bg-gray-bg pt-16 pb-2 px-2'>
-      <h3 className='text-center font-montserrat font-black text-orange-400 text-4xl max-[960px]:text-2xl px-2 capitalize pb-10'>nuestras causas</h3>
+      <h3 className='text-center font-montserrat font-black text-orange-400 text-4xl max-[960px]:text-2xl px-2 uppercase pb-10'>nuestras causas</h3>
       <div className='grid justify-center grid-cols-3 max-[640px]:grid-cols-2  gap-4 max-w-[1000px] mx-auto'>
         {
         causas.map(causa => (

@@ -46,14 +46,13 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Tecutli Gomez",
+            name: "Tecutli Gómez",
             position: "Vicecoordinador de la Bancada Naranja",
             state: "Jalisco",
             imageSrc: DiputadoTecutliGomez,
             socialMedia: {
                 facebook: "https://www.facebook.com/tecutligomezmc",
                 instagram: "https://www.instagram.com/tecutli_gomez/",
-                x: "https://x.com/TecutliGomez"
             }
         },
         {
@@ -79,35 +78,14 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Juan Ignacio Samperio",
-            position: "Diputado Ciudadano",
-            state: "EstadoDeMexico",
-            imageSrc: DiputadoJuanZamperio,
+            name: "Patricia Mercado",
+            position: "Presidenta de la Comisión de Movilidad",
+            state: "Sonora",
+            imageSrc: DiputadoPatriciaMercado,
             socialMedia: {
-                facebook: "https://www.facebook.com/IgnacioSamperioM?mibextid=LQQJ4d",
-                instagram: "https://www.instagram.com/juansamperiomc/",
-                x: "https://x.com/JuanSamperioMC"
-            }
-        },
-        {
-            name: "Paty Flores Elizondo",
-            position: "Diputada Ciudadana",
-            state: "Durango",
-            imageSrc: DiputadoPatriciaFloresElizondo,
-            socialMedia: {
-                facebook: "https://www.facebook.com/PatyFloresElizondo",
-                instagram: "https://www.instagram.com/patyfloreselizond/",
-                x: "https://x.com/Paty_FloresE"
-            }
-        },
-        {
-            name: "Pablo Vázquez Ahued",
-            position: "Diputado Ciudadano",
-            state: "Jalisco",
-            imageSrc: DiputadoPabloVazquez,
-            socialMedia: {
-                instagram: "https://www.instagram.com/pablo_vah_/",
-                x: "https://x.com/Pablo_VAh"
+                facebook: "https://www.facebook.com/PatriciaMercadoCastro",
+                instagram: "https://www.instagram.com/patriciamercadocastro/",
+                x: "https://x.com/Pat_MercadoC"
             }
         },
         {
@@ -122,36 +100,27 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Alfredo Lozoya",
-            position: "Diputado Ciudadano",
-            state: "Chihuahua",
-            imageSrc: DiputadoAlfredoLozoya,
+            name: "Paola Longoria",
+            position: "Presidenta de la Comisión del Deporte",
+            state: "NuevoLeon",
+            imageSrc: DiputadoPaolaLongoria,
             socialMedia: {
-                facebook: "https://www.facebook.com/AlfredoLozoyaMX",
-                instagram: "https://www.instagram.com/alfredolozoyamx/",
-                x: "https://x.com/AlfredoLozoyaMX"
+                facebook: "https://www.facebook.com/PaolaLongoriaOficial",
+                instagram: "https://www.instagram.com/paolongoria/",
+                x: "https://x.com/paolongoria"
             }
         },
+
+        // Aqui los siguientes 
         {
-            name: "Laura Hernández",
+            name: "Anayeli Muñoz",
             position: "Diputada Ciudadana",
-            state: "EstadoDeMexico",
-            imageSrc: DiputadoLauraHernandez,
+            state: "Aguascalientes",
+            imageSrc: DiputadoAnayeliMunoz,
             socialMedia: {
-                facebook: "https://www.facebook.com/DipLauraDDHH",
-                instagram: "https://www.instagram.com/diplauraddhh/",
-                x: "https://x.com/DipLauraDDHH"
-            }
-        },
-        {
-            name: "Patricia Mercado",
-            position: "Presidenta de la Comisión de Movilidad",
-            state: "Sonora",
-            imageSrc: DiputadoPatriciaMercado,
-            socialMedia: {
-                facebook: "https://www.facebook.com/PatriciaMercadoCastro",
-                instagram: "https://www.instagram.com/patriciamercadocastro/",
-                x: "https://x.com/Pat_MercadoC"
+                facebook: "https://www.facebook.com/AnayeliMunoz15",
+                instagram: "https://www.instagram.com/anayeli.munoz/",
+                x: "https://x.com/AnayeliMunoz"
             }
         },
         {
@@ -166,80 +135,25 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Gloria Núñez",
-            position: "Diputada Ciudadana",
-            state: "Nayarit",
-            imageSrc: DiputadoGloriaNunez,
-            socialMedia: {
-                facebook: "https://www.facebook.com/share/162NBEokit/",
-                instagram: "https://www.instagram.com/gloria_nayarit/",
-                x: "https://x.com/GloriaNunezs"
-            }
-        },
-        {
-            name: "Sergio Gil",
+            name: "Francisco Farias",
             position: "Diputado Ciudadano",
-            state: "Veracruz",
-            imageSrc: DiputadoSergioGil,
+            state: "Campeche",
+            imageSrc: DiputadoFranciscoFarias,
             socialMedia: {
-                facebook: "https://www.facebook.com/SergioGilRu",
-                instagram: "https://www.instagram.com/sergiogilru/",
-                x: "https://x.com/SergioGilRu"
+                facebook: "https://www.facebook.com/franciscobbfariasmx",
+                instagram: "https://www.instagram.com/franciscobbfariasmx/?hl=es",
+                x: "https://x.com/bbfariasmx"
             }
         },
         {
-            name: "Anayeli Muñoz",
-            position: "Diputada Ciudadana",
-            state: "Aguascalientes",
-            imageSrc: DiputadoAnayeliMunoz,
-            socialMedia: {
-                facebook: "https://www.facebook.com/AnayeliMunoz15",
-                instagram: "https://www.instagram.com/anayeli.munoz/",
-                x: "https://x.com/AnayeliMunoz"
-            }
-        },
-        {
-            name: "Gildardo Pérez",
+            name: "Alfredo Lozoya",
             position: "Diputado Ciudadano",
-            state: "EstadoDeMexico",
-            imageSrc: DiputadoGildardoPerez,
+            state: "Chihuahua",
+            imageSrc: DiputadoAlfredoLozoya,
             socialMedia: {
-                facebook: "https://www.facebook.com/GildardoPerezGabino",
-                instagram: "https://www.instagram.com/gildardoperezgabino/",
-                x: "https://x.com/gildardoperezg"
-            }
-        },
-        {
-            name: "Claudia Ruiz Massieu",
-            position: "Diputada Ciudadana",
-            state: "CiudadDeMexico",
-            imageSrc: DiputadoClaudiaRuizMassieu,
-            socialMedia: {
-                facebook: "https://www.facebook.com/RuizMassieu",
-                instagram: "https://www.instagram.com/cruizmassieu/",
-                x: "https://x.com/ruizmassieu"
-            }
-        },
-        {
-            name: "Paola Longoria",
-            position: "Presidenta de la Comisión del Deporte",
-            state: "NuevoLeon",
-            imageSrc: DiputadoPaolaLongoria,
-            socialMedia: {
-                facebook: "https://www.facebook.com/PaolaLongoriaOficial",
-                instagram: "https://www.instagram.com/paolongoria/",
-                x: "https://x.com/paolongoria"
-            }
-        },
-        {
-            name: "Juan Zavala",
-            position: "Diputado Ciudadano",
-            state: "CiudadDeMexico",
-            imageSrc: DiputadoJuanZavala,
-            socialMedia: {
-                facebook: "https://web.facebook.com/jzavalagt1",
-                instagram: "https://www.instagram.com/jzavalagt1/",
-                x: "https://x.com/JZavalaGt"
+                facebook: "https://www.facebook.com/AlfredoLozoyaMX",
+                instagram: "https://www.instagram.com/alfredolozoyamx/",
+                x: "https://x.com/AlfredoLozoyaMX"
             }
         },
         {
@@ -254,17 +168,6 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Iraís Reyes",
-            position: "Diputada Ciudadana",
-            state: "NuevoLeon",
-            imageSrc: DiputadoIraisReyes,
-            socialMedia: {
-                facebook: "https://www.facebook.com/IraisReyesT",
-                instagram: "https://www.instagram.com/irais_reyes/",
-                x: "https://x.com/irais_reyes"
-            }
-        },
-        {
             name: "Gibrán Ramírez",
             position: "Diputado Ciudadano",
             state: "CiudadDeMexico",
@@ -273,6 +176,82 @@ export default function SelectionBancada() {
                 facebook: "https://www.facebook.com/gibranramirezr",
                 instagram: "https://www.instagram.com/gibranramirezreyes/",
                 x: "https://x.com/gibranrr"
+            }
+        },
+        {
+            name: "Claudia Ruiz Massieu",
+            position: "Diputada Ciudadana",
+            state: "CiudadDeMexico",
+            imageSrc: DiputadoClaudiaRuizMassieu,
+            socialMedia: {
+                facebook: "https://www.facebook.com/RuizMassieu",
+                instagram: "https://www.instagram.com/cruizmassieu/",
+                x: "https://x.com/ruizmassieu"
+            }
+        },
+        {
+            name: "Juan Zavala",
+            position: "Diputado Ciudadano",
+            state: "CiudadDeMexico",
+            imageSrc: DiputadoJuanZavala,
+            socialMedia: {
+                facebook: "https://web.facebook.com/jzavalagt1",
+                instagram: "https://www.instagram.com/jzavalagt1/",
+                x: "https://x.com/JZavalaGt"
+            }
+        },
+        {
+            name: "Paty Flores Elizondo",
+            position: "Diputada Ciudadana",
+            state: "Durango",
+            imageSrc: DiputadoPatriciaFloresElizondo,
+            socialMedia: {
+                facebook: "https://www.facebook.com/PatyFloresElizondo",
+                instagram: "https://www.instagram.com/patyfloreselizond/",
+                x: "https://x.com/Paty_FloresE"
+            }
+        },
+        {
+            name: "Laura Hernández",
+            position: "Diputada Ciudadana",
+            state: "EstadoDeMexico",
+            imageSrc: DiputadoLauraHernandez,
+            socialMedia: {
+                facebook: "https://www.facebook.com/DipLauraDDHH",
+                instagram: "https://www.instagram.com/diplauraddhh/",
+                x: "https://x.com/DipLauraDDHH"
+            }
+        },
+        {
+            name: "Gildardo Pérez",
+            position: "Diputado Ciudadano",
+            state: "EstadoDeMexico",
+            imageSrc: DiputadoGildardoPerez,
+            socialMedia: {
+                facebook: "https://www.facebook.com/GildardoPerezGabino",
+                instagram: "https://www.instagram.com/gildardoperezgabino/",
+                x: "https://x.com/gildardoperezg"
+            }
+        },
+        {
+            name: "Armando Ruiz",
+            position: "Diputado Ciudadano",
+            state: "EstadoDeMexico",
+            imageSrc: DiputadoArmandoRuiz,
+            socialMedia: {
+                facebook: "https://www.facebook.com/armandoruizenmovimient0",
+                instagram: "https://www.instagram.com/armandoruizmc/"
+            }
+        },
+        {
+            name: "Juan Ignacio Samperio",
+            position: "Diputado Ciudadano",
+            state: "EstadoDeMexico",
+            imageSrc: DiputadoJuanZamperio,
+            socialMedia: {
+                facebook: "https://www.facebook.com/IgnacioSamperioM?mibextid=LQQJ4d",
+                instagram: "https://www.instagram.com/juansamperiomc/",
+                x: "https://x.com/JuanSamperioMC"
             }
         },
         {
@@ -287,6 +266,48 @@ export default function SelectionBancada() {
             }
         },
         {
+            name: "Pablo Vázquez Ahued",
+            position: "Diputado Ciudadano",
+            state: "Jalisco",
+            imageSrc: DiputadoPabloVazquez,
+            socialMedia: {
+                instagram: "https://www.instagram.com/pablo_vah_/",
+                x: "https://x.com/Pablo_VAh"
+            }
+        },
+        {
+            name: "Gloria Núñez",
+            position: "Diputada Ciudadana",
+            state: "Nayarit",
+            imageSrc: DiputadoGloriaNunez,
+            socialMedia: {
+                facebook: "https://www.facebook.com/share/162NBEokit/",
+                instagram: "https://www.instagram.com/gloria_nayarit/",
+                x: "https://x.com/GloriaNunezs"
+            }
+        },
+        {
+            name: "Iraís Reyes",
+            position: "Diputada Ciudadana",
+            state: "NuevoLeon",
+            imageSrc: DiputadoIraisReyes,
+            socialMedia: {
+                facebook: "https://www.facebook.com/IraisReyesT",
+                instagram: "https://www.instagram.com/irais_reyes/",
+                x: "https://x.com/irais_reyes"
+            }
+        },
+        {
+            name: "Miguel Sánchez",
+            position: "Diputado Ciudadano",
+            state: "NuevoLeon",
+            imageSrc: DiputadoMiguelSanchez,
+            socialMedia: {
+                facebook: "https://www.facebook.com/miguelsanchezrv",
+                instagram: "https://www.instagram.com/miguelsanchezrv/"
+            }
+        },
+        {
             name: "María de Fátima García León",
             position: "Diputada Ciudadana",
             state: "Oaxaca",
@@ -297,34 +318,14 @@ export default function SelectionBancada() {
             }
         },
         {
-            name: "Miguel Ángel Sánchez",
-            position: "Diputado Ciudadana",
-            state: "NuevoLeon",
-            imageSrc: DiputadoMiguelSanchez,
-            socialMedia: {
-                facebook: "https://www.facebook.com/miguelsanchezrv",
-                instagram: "https://www.instagram.com/miguelsanchezrv/"
-            }
-        },
-        {
-            name: "Armando Ruiz",
+            name: "Sergio Gil",
             position: "Diputado Ciudadano",
-            state: "EstadoDeMexico",
-            imageSrc: DiputadoArmandoRuiz,
+            state: "Veracruz",
+            imageSrc: DiputadoSergioGil,
             socialMedia: {
-                facebook: "https://www.facebook.com/armandoruizenmovimient0",
-                instagram: "https://www.instagram.com/armandoruizmc/"
-            }
-        },
-        {
-            name: "Francisco Farias",
-            position: "Diputado Ciudadano",
-            state: "Campeche",
-            imageSrc: DiputadoFranciscoFarias,
-            socialMedia: {
-                facebook: "https://www.facebook.com/franciscobbfariasmx",
-                instagram: "https://www.instagram.com/franciscobbfariasmx/?hl=es",
-                x: "https://x.com/bbfariasmx"
+                facebook: "https://www.facebook.com/SergioGilRu",
+                instagram: "https://www.instagram.com/sergiogilru/",
+                x: "https://x.com/SergioGilRu"
             }
         }
     ]
