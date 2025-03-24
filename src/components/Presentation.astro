@@ -1,13 +1,12 @@
 ---
 const texts = [
-  "La alternativa que pone a las personas al centro y sus causas al frente.",
-  "Desde la Cámara de Diputados sentamos las bases para la construcción de un México Nuevo.",
+  "La alternativa que pone a las personas al centro y sus causas al frente. Desde la Cámara de Diputados sentamos las bases para la construcción de un México Nuevo.",
 ];
 ---
 
 <section class="px-4 py-24 max-[960px]:py-10 bg-gray-bg">
-  <h1 class="font-montserrat text-center font-bold text-orange-400 text-4xl max-[640px]:text-2xl pb-6">Somos la Bancada Naranja</h1>
-  <div class="flex flex-col gap-y-2">
+  <h1 class="font-montserrat text-center font-black text-orange-400 text-4xl max-[640px]:text-2xl pb-6 uppercase">Somos la Bancada Naranja</h1>
+  <div class="flex flex-col gap-y-2 max-w-[1000px] mx-auto">
     {
       texts.map((text) => <p class="font-montserrat font-light text-center text-xl max-[960px]:text-sm">{text}</p>)
     }
