@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Modal } from "react-responsive-modal"
 import "react-responsive-modal/styles.css"
 
-export default function CartModal({ src, title, text, modalText }) {
+export default function CartModal({ src, title, text, modalText }: { src: string, title: string, text: string, modalText: string[] }) {
     const [open, setOpen] = useState(false);
     const onOpenModal = () => setOpen(true);
     const onCloseModal = () => setOpen(false);
