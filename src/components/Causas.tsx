@@ -19,7 +19,6 @@ export default function Causas() {
         "40 horas, ¡Ahora!"
       ],
       iniciativas: [
-	      "https://gaceta.diputados.gob.mx/Gaceta/66/2024/oct/20241008-II-6.html#Iniciativa2",
 	      "https://gaceta.diputados.gob.mx/PDF/66/2025/feb/20250212-II-6-1.pdf#page=2"
       ],
     },
