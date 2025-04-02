@@ -1,0 +1,12 @@
+---
+import "../styles/global.css"
+import {Image} from "astro:assets"
+import BancadaLogo from "../assets/BancadaLogo2.svg"
+import Layout from "../layouts/Layout.astro"
+---
+<Layout>
+	<div class="w-screen h-screen flex flex-col gap-10 items-center justify-center bg-linear-to-r from-[#ef6f00] to-[#f07f00]">
+		<h1 class="uppercase font-montserrat font-black text-white text-3xl md:text-5xl ">en construcción</h1>
+	<Image class="w-50" src={BancadaLogo} alt="Logo de la Bancada de Naranja" />	
+	</div>
+</Layout>

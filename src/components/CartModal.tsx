@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Modal } from "react-responsive-modal"
 import "react-responsive-modal/styles.css"
 
-export default function CartModal({ src, title, text, modalText }: { src: string, title: string, text: string, modalText: string[] }) {
+export default function CartModal({ src, title, text, modalText, iniciativas, dofs }: { src: string, title: string, text: string, modalText: string[] }) {
     const [open, setOpen] = useState(false);
     const onOpenModal = () => setOpen(true);
     const onCloseModal = () => setOpen(false);
@@ -38,17 +38,31 @@ export default function CartModal({ src, title, text, modalText }: { src: string
                     </svg>
                 </button>
                 <Modal 
-                    
                     open={open}
                     onClose={onCloseModal}
                     center
                 >
                     <h2 className='font-bold text-orange-bnd text-xl font-montserrat pb-4'>{title}</h2>
-                    <div className='flex flex-col text-sm gap-2'>
+                    <div className='flex flex-col text-sm gap-2 mb-4'>
                     {
                         modalText.map(text => <p className='font-montserrat text-md font-light text-gray-texts'>{text}</p>)
                     }
                     </div>
+		    <div className="flex flex-col text-orange-bnd text-sm font-montserrat font-light">
+			 {
+			iniciativas && iniciativas.length > 0 ?
+			iniciativas.map((iniciativa, key) => <a className="hover:underline " href={iniciativa} target="_blank">Gaceta Parlamentaria</a>)
+			: ""
+		    }
+		    </div>
+			<div className="flex flex-col text-orange-bnd text-sm font-montserrat font-light">
+			 {
+			dofs && dofs.length > 0 ?
+			dofs.map((dof, key) => <a className="hover:underline " href={dof} target="_blank">Diario Oficial de La Federación</a>)
+			: ""
+		    }
+		    </div>
+
                 </Modal>
             </div>
         </div>

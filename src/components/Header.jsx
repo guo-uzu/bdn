@@ -8,7 +8,8 @@ const Header = () => {
         { name: "Bancada Naranja", href: "#BancadaNaranja" },
         { name: "Spot", href: "#Spot" },
         { name: "Causas", href: "#Causas" },
-        { name: "Redes Sociales", href: "#RedesSociales" }
+        { name: "Redes Sociales", href: "#RedesSociales" },
+        { name: "Iniciativas", href: "/Iniciativas" }
     ];
 
     return (
