@@ -90,7 +90,7 @@ export default function SelectionBancada() {
         },
         {
             name: "Claudia Salas Rodríguez",
-            position: "Presidenta de la Comisón de Zonas Metropolitanas",
+            position: "Presidenta de la Comisión de Zonas Metropolitanas",
             state: "Jalisco",
             imageSrc: DiputadoClaudiaSalas,
             socialMedia: {

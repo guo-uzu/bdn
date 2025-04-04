@@ -4,13 +4,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import Banner1 from "@assets/Banner1.webp"
 import Banner2 from "@assets/Banner2.webp"
 import Banner3 from "@assets/Banner3.webp"
-import Banner4 from "@assets/Banner4.webp"
 import Banner5 from "@assets/Banner5.webp"
 import Banner6 from "@assets/Banner6.webp"
 
 export default function CarouselSection() {
   const banners = [
-    Banner1, Banner2, Banner3, Banner4, Banner5, Banner6
+    Banner1, Banner2, Banner3, Banner5, Banner6
   ]
   const renderArrowPrev = (onClickHandler, hasPrev, label) => hasPrev && (
     <button onClick={onClickHandler} className='absolute z-10 max-w-8 top-0 bottom-0 cursor-pointer text-white/60 hover:text-white transition-colors ml-3'>
