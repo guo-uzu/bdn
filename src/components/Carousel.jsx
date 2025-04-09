@@ -9,7 +9,11 @@ import Banner6 from "@assets/Banner6.webp"
 
 export default function CarouselSection() {
   const banners = [
-    Banner1, Banner2, Banner3, Banner5, Banner6
+      { src: Banner1.src},
+      { src: Banner2.src},
+      { src: Banner3.src},
+      { src: Banner5.src},
+      {href: "/CartaCuauhtemoc.pdf", src: Banner6.src},
   ]
   const renderArrowPrev = (onClickHandler, hasPrev, label) => hasPrev && (
     <button onClick={onClickHandler} className='absolute z-10 max-w-8 top-0 bottom-0 cursor-pointer text-white/60 hover:text-white transition-colors ml-3'>
@@ -68,7 +72,12 @@ export default function CarouselSection() {
         renderArrowNext={renderArrowProx}
       >
         {
-          banners.map(banner => <div><img src={banner.src} alt="" /></div>)
+          banners.map(banner => (
+              banner.href ? 
+            <a href={banner.href} target="_blank"><div><img src={banner.src} alt="" /></div></a>
+              : 
+            <div><img src={banner.src} alt="" /></div>
+          ))
         }
       </Carousel>
     </section>
