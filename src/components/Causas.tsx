@@ -32,7 +32,7 @@ export default function Causas() {
         "40 horas, ¡Ahora!"
       ],
       iniciativas: [
-        {title: "Conoce la iniciativa de BDN", file: JornadaLabolarBND},
+        {title: "Conoce la iniciativa de BND", file: JornadaLabolarBND},
         {title: "Conoce la iniciativa de Juan Zavala", file: JornadaLabolarJZ},
 	    ],
     },
