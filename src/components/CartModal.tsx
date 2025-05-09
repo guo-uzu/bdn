@@ -51,7 +51,7 @@ export default function CartModal({ src, title, text, modalText, iniciativas, do
 		    <div className="flex flex-col text-orange-bnd text-sm font-montserrat font-light">
 			 {
 			iniciativas && iniciativas.length > 0 ?
-			iniciativas.map((iniciativa, key) => <a className="hover:underline " href={iniciativa} target="_blank">Conoce la iniciativa</a>)
+			iniciativas.map((iniciativa, key) => <a className="hover:underline " href={iniciativa.file} target="_blank">{iniciativa.title}</a>)
 			: ""
 		    }
 		    </div>

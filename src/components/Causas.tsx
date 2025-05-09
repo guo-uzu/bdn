@@ -1,77 +1,96 @@
 import React from 'react'
+
 import Causa40Horas from "@assets/Causa40Horas.webp"
-import CausaBuro from "@assets/CausaBuro.webp"
+import JornadaLabolarBND from "@assets/JornadaLaboralBDN.pdf"
+import JornadaLabolarJZ from "@assets/JornadaLaboralJZ.pdf"
+
 import CausaCancer from "@assets/CausaCancer.webp"
+import Cancer from "@assets/Cancer.pdf"
+
 import CausaCuidado from "@assets/CausaCuidado.webp"
+import Cuidado from "@assets/Cuidados.pdf"
+
+import CausaBuro from "@assets/CausaBuro.webp"
+import Buro from "@assets/BurodeCredito.pdf"
+
 import CausaSilla from "@assets/CausaSilla.png"
+import LeySilla from "@assets/LeySilla.pdf"
+
 import CausaVacaciones from "@assets/CausaVacaciones.png"
+import Vacaciones from "@assets/Vacaciones.pdf"
+
 import CartModal from './CartModal'
 
 export default function Causas() {
   const causas = [
     {
       title: "40 horas, ¡Ahora!",
-      text: "¿Sabías que la duración de la jornada laboral no ha cambiado en más de 100 años?",
+      text: "¿Sabías que la jornada laboral no ha cambiado en más de 100 años?",
       src: Causa40Horas.src,
       modalText: [
-        "¿Sabías que la duración de la jornada laboral no ha cambiado en más de 100 años?",
         "Vamos por la reducción de la jornada a 40 horas, para que tengas más tiempo para estar con los tuyos, descansar y recargar pilas.",
         "40 horas, ¡Ahora!"
       ],
       iniciativas: [
-	      "https://gaceta.diputados.gob.mx/PDF/66/2025/feb/20250212-II-6-1.pdf#page=2"
-      ],
+        {title: "Conoce la iniciativa de BDN", file: JornadaLabolarBND},
+        {title: "Conoce la iniciativa de Juan Zavala", file: JornadaLabolarJZ},
+	    ],
     },
     {
       title: "Todo contra el cáncer infantil",
-      text: "Así como en Jalisco y Nuevo León, queremos que todas las niñas y niños de México tengan tratamiento gratuito contra el cáncer.",
+      text: "En la Bancada Naranja lo damos todo contra el cáncer infantil.",
       src: CausaCancer.src,
       modalText: [
-        "Así como en Jalisco y Nuevo León, queremos que todas las niñas y niños de México tengan tratamiento gratuito contra el cáncer.",
-        "En la Bancada Naranja lo damos todo contra el cáncer infantil."
+        "Así como en Jalisco y Nuevo León, queremos que todas las niñas y niños de México tengan tratamiento gratuito contra el cáncer."
       ],
-      iniciativas: ["https://gaceta.diputados.gob.mx/Gaceta/66/2025/feb/20250212-II-6.html#Iniciativa1"]
+      iniciativas: [
+        {title: "Conoce la iniciativa", file: Cancer},
+      ]
     },
     {
       title: "Derecho al Cuidado",
-      text: "En la Bancada Naranja vamos por el derecho al cuidado en todo México, con estancias infantiles, escuelas de tiempo completo, casas de día, servicios médicos, capacitaciones, apoyos económicos y más.",
+      text: "Los cuidados son trabajo y deben ser valorados.",
       src: CausaCuidado.src,
       modalText: [
-        "En la Bancada Naranja vamos por el derecho al cuidado en todo México, con estancias infantiles, escuelas de tiempo completo, casas de día, servicios médicos, capacitaciones, apoyos económicos y más.",
-        "Porque los cuidados son un derecho, pero también son trabajo y deben ser valorados."
+        "En la Bancada Naranja vamos por el derecho al cuidado en todo México, con estancias infantiles, escuelas de tiempo completo, casas de día, servicios médicos, capacitaciones, apoyos económicos y más."
       ],
-	iniciativas: ["https://gaceta.diputados.gob.mx/PDF/66/2024/oct/20241022-II-6-1.pdf#page=2"]
+      iniciativas: [
+        {title: "Conoce la iniciativa", file: Cuidado},
+      ]
     },
     {
       title: "Que el buró no te quite el sueño",
-      text: "El buró de crédito es injusto y abusivo. ",
+      text: "El buró de crédito es injusto y abusivo.",
       src: CausaBuro.src,
       modalText: [
-        "El buró de crédito es injusto y abusivo.",
         "Queremos que el buró no te quite el sueño, por ello, en la Bancada Naranja proponemos que nadie acabé en el buró por una deuda menor a 8 mil pesos y que cuando pagues no tardes más de 10 días en salir."
       ],
-      iniciativas: ["https://gaceta.diputados.gob.mx/PDF/66/2024/oct/20241030-II-6-1.pdf#page=2"]
+      iniciativas: [
+        {title: "Conoce la iniciativa", file: Buro},
+      ]
     },
     {
       title: "Ley Silla",
-      text: "El 45 % de las personas en México trabaja de pie y sin descanso.",
+      text: "Y ¡ya logramos la ley silla!",
       src: CausaSilla.src,
       modalText: [
-        "El 45 % de las personas en México trabaja de pie y sin descanso.",
-        "Por eso, en la Bancada Naranja logramos que a partir del 17 de junio de 2025 sea obligatorio proveer sillas con respaldo en todos los centros de trabajo."
+        "El 45 % de las personas en México trabaja de pie y sin descanso, por eso, en la Bancada Naranja logramos que a partir del 17 de junio de 2025 sea obligatorio proveer sillas con respaldo en todos los centros de trabajo."
       ],
-      iniciativas: ["https://gaceta.diputados.gob.mx/PDF/66/2024/oct/20241002-IV.pdf"],
+      iniciativas: [
+        {title: "Conoce la iniciativa", file: LeySilla},
+      ],
       dofs: ["https://gaceta.diputados.gob.mx/PDF/66/2024/oct/DOF19DIC2024-VariosLeyFedTRabajoLeySilla.pdf"]
     },
     {
       title: "Más vacaciones",
-      text: "¡Haz tus maletas!",
+      text: "Logramos más vacaciones para ti, así que ¡haz tus maletas!",
       src: CausaVacaciones.src,
       modalText: [
-        "¡Haz tus maletas!",
         "En la Bancada Naranja logramos duplicar los días de vacaciones desde el primer año de trabajo."
       ],
-      iniciativas: ["https://gaceta.diputados.gob.mx/Gaceta/65/2022/feb/20220210-II.html#Iniciativa4"],
+      iniciativas: [
+        {title: "Conoce la iniciativa", file: Vacaciones},
+      ],
       dofs: ["https://www.dof.gob.mx/nota_detalle.php?codigo=5675889&fecha=27/12/2022#gsc.tab=0"]
     },
   ]
