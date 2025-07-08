@@ -27,6 +27,7 @@ import DiputadoPaolaLongoria from "@assets/DiputadoPaolaLongoria.webp";
 import DiputadoPatriciaFloresElizondo from "@assets/DiputadoPatriciaFloresElizondo.webp";
 import DiputadoPatriciaMercado from "@assets/DiputadoPatriciaMercado.webp";
 import DiputadoSergioGil from "@assets/DiputadoSergioGil.webp";
+import DiputadoEduardoGaona from "@assets/DiputadoEduardoGaona.webp";
 
 import FacebookLogo from "@assets/FacebookLogo.svg";
 import InstagramLogo from "@assets/InstagramLogo.svg";
@@ -464,6 +465,22 @@ export default function SelectionBancada() {
         ext: "62634",
       },
       email: "sergio.gil",
+    },
+    {
+      name: "Sergio Gaona",
+      position: "Diputado Ciudadano",
+      state: "Nuevo León",
+      imageSrc: DiputadoEduardoGaona,
+      socialMedia: {
+        facebook: "https://www.facebook.com/EduardoGaonaNL",
+        instagram: "https://www.instagram.com/eduardogaonanl/",
+        x: "https://x.com/EduardoGaonaNL",
+      },
+      tel: {
+        base: "(55) 5036 0000",
+        ext: "62644",
+      },
+      email: "eduardo.gaona",
     },
   ];
 
