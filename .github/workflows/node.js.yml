@@ -36,4 +36,3 @@ jobs:
         local-dir: ./dist/
         server-dir: ./bancadanaranja.mx/public_html/
         dangerous-clean-slate: false
-    - run: pnpm test
