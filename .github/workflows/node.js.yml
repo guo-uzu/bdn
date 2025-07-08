@@ -34,6 +34,6 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         local-dir: ./dist/
-        server-dir: ./agriculturaregenerativadonjulio.com/
+        server-dir: ./bancadanaranja.mx/public_html/
         dangerous-clean-slate: false
     - run: pnpm test
