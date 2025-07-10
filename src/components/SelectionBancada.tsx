@@ -467,9 +467,9 @@ export default function SelectionBancada() {
       email: "sergio.gil",
     },
     {
-      name: "Sergio Gaona",
+      name: "Eduardo Gaona",
       position: "Diputado Ciudadano",
-      state: "Nuevo León",
+      state: "NuevoLeon",
       imageSrc: DiputadoEduardoGaona,
       socialMedia: {
         facebook: "https://www.facebook.com/EduardoGaonaNL",
