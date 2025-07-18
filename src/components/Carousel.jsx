@@ -6,6 +6,7 @@ import Banner2 from "@assets/Banner2.webp"
 import Banner3 from "@assets/Banner3.webp"
 import Banner5 from "@assets/Banner5.webp"
 import Banner6 from "@assets/Banner6.webp"
+import Banner7 from "@assets/Banner7.webp"
 
 export default function CarouselSection() {
   const banners = [
@@ -14,6 +15,7 @@ export default function CarouselSection() {
       { src: Banner3.src},
       { src: Banner5.src},
       {href: "/CartaCuauhtemoc.pdf", src: Banner6.src},
+      {href: "/IniciativaBoleteras.pdf", src: Banner7.src}
   ]
   const renderArrowPrev = (onClickHandler, hasPrev, label) => hasPrev && (
     <button onClick={onClickHandler} className='absolute z-10 max-w-8 top-0 bottom-0 cursor-pointer text-white/60 hover:text-white transition-colors ml-3'>
