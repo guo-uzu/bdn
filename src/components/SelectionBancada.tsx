@@ -53,7 +53,7 @@ export default function SelectionBancada() {
     },
     {
       name: "Tecutli Gómez",
-      position: "Vicecoordinador de la Bancada Naranja",
+      position: "Diputado Ciudadano",
       state: "Jalisco",
       imageSrc: DiputadoTecutliGomez,
       socialMedia: {
@@ -264,7 +264,7 @@ export default function SelectionBancada() {
     },
     {
       name: "Juan Zavala",
-      position: "Diputado Ciudadano",
+      position: "Vicecoordinador de la Bancada Naranja",
       state: "CiudadDeMexico",
       imageSrc: DiputadoJuanZavala,
       socialMedia: {
@@ -375,7 +375,7 @@ export default function SelectionBancada() {
     },
     {
       name: "Pablo Vázquez Ahued",
-      position: "Diputado Ciudadano",
+      position: "Vicecoordinador de la Bancada Naranja",
       state: "Jalisco",
       imageSrc: DiputadoPabloVazquez,
       socialMedia: {
@@ -552,7 +552,7 @@ export default function SelectionBancada() {
               <div className="bg-orange-400 top-0 z-0 w-full h-full absolute rounded-xl p-6 text-sm text-white flex flex-col justify-evenly">
                 <div className="flex gap-1">
                   <svg
-                    class="w-[36px] h-[36px] text-gray-800 dark:text-white"
+                    className="w-[36px] h-[36px] text-gray-800 dark:text-white"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -575,7 +575,7 @@ export default function SelectionBancada() {
                 </div>
                 <div className="flex gap-1">
                   <svg
-                    class="w-[36px] h-[36px] text-gray-800 dark:text-white"
+                    className="w-[36px] h-[36px] text-gray-800 dark:text-white"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
