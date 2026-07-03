@@ -1,8 +1,5 @@
-import React from "react";
-
 import Causa40Horas from "@assets/Causa40Horas.webp";
 import JornadaLabolarBND from "@assets/JornadaLaboralBDN.pdf";
-import JornadaLabolarJZ from "@assets/JornadaLaboralJZ.pdf";
 
 import CausaCancer from "@assets/CausaCancer.webp";
 import Cancer from "@assets/Cancer.pdf";
@@ -19,10 +16,23 @@ import LeySilla from "@assets/LeySilla.pdf";
 import CausaVacaciones from "@assets/CausaVacaciones.png";
 import Vacaciones from "@assets/Vacaciones.pdf";
 
+import DerechoALaDesconexion from "@assets/derechoALaDesconexionIcon.jpg";
+
 import CartModal from "./CartModal";
 
 export default function Causas() {
   const causas = [
+    {
+      title: "Desconéctate a tu hora",
+      text: "Vamos por tu derecho a la desconexión digital.",
+      src: DerechoALaDesconexion.src,
+      modalText: [
+        "Impulsamos tu derecho a desconectarte del trabajo cuando termina tu jornada. Nadie debería pedirte que contestes mensajes, llamadas o correos en tu tiempo libre o durante tus vacaciones.",
+      ],
+      iniciativas: [
+        { title: "Conoce la iniciativa", file: "/DesconexionDigital.pdf" },
+      ],
+    },
     {
       title: "40 horas, ¡Ahora!",
       text: "¿Sabías que la jornada laboral no ha cambiado en más de 100 años?",
