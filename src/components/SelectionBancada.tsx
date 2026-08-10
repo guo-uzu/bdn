@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DiputadoIvonneOrtega from "@assets/DiputadoIvonneOrtega.webp";
 import DiputadoLauraBllesteros from "@assets/DiputadoLauraBallesteros.webp";
-import DiputadoRaulLozano from "@assets/DiputadoRaulLozano.webp";
 import DiputadoTecutliGomez from "@assets/DiputadoTecutliGomez.webp";
 
 import DiputadoAlfredoLozoya from "@assets/DiputadoAlfredoLozoya.webp";
@@ -28,6 +27,7 @@ import DiputadoPatriciaFloresElizondo from "@assets/DiputadoPatriciaFloresElizon
 import DiputadoPatriciaMercado from "@assets/DiputadoPatriciaMercado.webp";
 import DiputadoSergioGil from "@assets/DiputadoSergioGil.webp";
 import DiputadoEduardoGaona from "@assets/DiputadoEduardoGaona.webp";
+import DiputadoPonchoVidales from "@assets/DiputadoPonchoValdes.jpg";
 
 import FacebookLogo from "@assets/FacebookLogo.svg";
 import InstagramLogo from "@assets/InstagramLogo.svg";
@@ -50,6 +50,53 @@ export default function SelectionBancada() {
         ext: "62603",
       },
       email: "ivonne.ortega",
+    },
+    {
+      name: "Juan Zavala",
+      position: "Vicecoordinador de la Bancada Naranja",
+      state: "CiudadDeMexico",
+      imageSrc: DiputadoJuanZavala,
+      socialMedia: {
+        facebook: "https://web.facebook.com/jzavalagt1",
+        instagram: "https://www.instagram.com/jzavalagt1/",
+        x: "https://x.com/JZavalaGt",
+      },
+      tel: {
+        base: "(55) 5036 0000",
+        ext: "66381",
+      },
+      email: "juan.zavala",
+    },
+    {
+      name: "Pablo Vázquez Ahued",
+      position: "Vicecoordinador de la Bancada Naranja",
+      state: "Jalisco",
+      imageSrc: DiputadoPabloVazquez,
+      socialMedia: {
+        instagram: "https://www.instagram.com/pablo_vah_/",
+        x: "https://x.com/Pablo_VAh",
+      },
+      tel: {
+        base: "(55) 5036 0000",
+        ext: "62638",
+      },
+      email: "pablo.vazquez",
+    },
+    {
+      name: "Patricia Mercado",
+      position: "Presidenta de la Comisión de Movilidad",
+      state: "Sonora",
+      imageSrc: DiputadoPatriciaMercado,
+      socialMedia: {
+        facebook: "https://www.facebook.com/PatriciaMercadoCastro",
+        instagram: "https://www.instagram.com/patriciamercadocastro/",
+        x: "https://x.com/Pat_MercadoC",
+      },
+      tel: {
+        base: "(55) 5036 0000",
+        ext: "62630",
+      },
+      email: "patricia.mercado",
     },
     {
       name: "Tecutli Gómez",
@@ -99,22 +146,6 @@ export default function SelectionBancada() {
         ext: "53069",
       },
       email: "laura.ballesteros",
-    },
-    {
-      name: "Patricia Mercado",
-      position: "Presidenta de la Comisión de Movilidad",
-      state: "Sonora",
-      imageSrc: DiputadoPatriciaMercado,
-      socialMedia: {
-        facebook: "https://www.facebook.com/PatriciaMercadoCastro",
-        instagram: "https://www.instagram.com/patriciamercadocastro/",
-        x: "https://x.com/Pat_MercadoC",
-      },
-      tel: {
-        base: "(55) 5036 0000",
-        ext: "62630",
-      },
-      email: "patricia.mercado",
     },
     {
       name: "Claudia Salas Rodríguez",
@@ -262,22 +293,7 @@ export default function SelectionBancada() {
       },
       email: "claudia.ruizmassieu",
     },
-    {
-      name: "Juan Zavala",
-      position: "Vicecoordinador de la Bancada Naranja",
-      state: "CiudadDeMexico",
-      imageSrc: DiputadoJuanZavala,
-      socialMedia: {
-        facebook: "https://web.facebook.com/jzavalagt1",
-        instagram: "https://www.instagram.com/jzavalagt1/",
-        x: "https://x.com/JZavalaGt",
-      },
-      tel: {
-        base: "(55) 5036 0000",
-        ext: "66381",
-      },
-      email: "juan.zavala",
-    },
+
     {
       name: "Paty Flores Elizondo",
       position: "Diputada Ciudadana",
@@ -374,21 +390,6 @@ export default function SelectionBancada() {
       email: "hugo.luna",
     },
     {
-      name: "Pablo Vázquez Ahued",
-      position: "Vicecoordinador de la Bancada Naranja",
-      state: "Jalisco",
-      imageSrc: DiputadoPabloVazquez,
-      socialMedia: {
-        instagram: "https://www.instagram.com/pablo_vah_/",
-        x: "https://x.com/Pablo_VAh",
-      },
-      tel: {
-        base: "(55) 5036 0000",
-        ext: "62638",
-      },
-      email: "pablo.vazquez",
-    },
-    {
       name: "Gloria Núñez",
       position: "Diputada Ciudadana",
       state: "Nayarit",
@@ -481,6 +482,22 @@ export default function SelectionBancada() {
         ext: "62644",
       },
       email: "eduardo.gaona",
+    },
+    {
+      name: "Poncho Vidales",
+      position: "Diputado Ciudadano",
+      state: "EstadoDeMexico",
+      imageSrc: DiputadoPonchoVidales,
+      socialMedia: {
+        facebook: "https://www.facebook.com/Alfonso.Vidales.Ochoa/",
+        instagram: "https://www.instagram.com/ponchovidales/",
+        x: "https://x.com/PonchoVidales",
+      },
+      tel: {
+        base: "(55) 5628 1300",
+        ext: "62619",
+      },
+      email: "alfonso.vidales",
     },
   ];
 
