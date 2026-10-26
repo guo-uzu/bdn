@@ -26,7 +26,7 @@ import DiputadoPatriciaFloresElizondo from "@assets/DiputadoPatriciaFloresElizon
 import DiputadoPatriciaMercado from "@assets/DiputadoPatriciaMercado.webp";
 import DiputadoSergioGil from "@assets/DiputadoSergioGil.webp";
 import DiputadoEduardoGaona from "@assets/DiputadoEduardoGaona.webp";
-import DiputadoPonchoVidales from "@assets/DiputadoPonchoValdes.jpg";
+import DiputadoPonchoVidales from "@assets/DiputadoPonchoVidales.png";
 
 import FacebookLogo from "@assets/FacebookLogo.svg";
 import InstagramLogo from "@assets/InstagramLogo.svg";
