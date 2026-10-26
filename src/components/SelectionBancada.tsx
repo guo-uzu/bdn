@@ -9,7 +9,6 @@ import DiputadoArmandoRuiz from "@assets/DiputadoArmandoRuiz.webp";
 import DiputadoClaudiaRuizMassieu from "@assets/DiputadoClaudiaRuizMassieu.webp";
 import DiputadoClaudiaSalas from "@assets/DiputadoClaudiaSalas.webp";
 import DiputadoFatimaGarcia from "@assets/DiputadoFatimaGarcia.webp";
-import DiputadoFranciscoFarias from "@assets/DiputadoFranciscoFarias.webp";
 import DiputadoGibranRamirez from "@assets/DiputadoGibranRamirez.webp";
 import DiputadoGildardoPerez from "@assets/DiputadoGildardoPerez.webp";
 import DiputadoGloriaNunez from "@assets/DiputadoGloriaNunez.webp";
@@ -212,22 +211,6 @@ export default function SelectionBancada() {
         ext: "62612",
       },
       email: "gustavo.dehoyos",
-    },
-    {
-      name: "Francisco Farias",
-      position: "Diputado Ciudadano",
-      state: "Campeche",
-      imageSrc: DiputadoFranciscoFarias,
-      socialMedia: {
-        facebook: "https://www.facebook.com/franciscobbfariasmx",
-        instagram: "https://www.instagram.com/franciscobbfariasmx/?hl=es",
-        x: "https://x.com/bbfariasmx",
-      },
-      tel: {
-        base: "(55) 5036 0000",
-        ext: "62628",
-      },
-      email: "francisco.farias",
     },
     {
       name: "Alfredo Lozoya",
